@@ -1,0 +1,35 @@
+.contact{
+    background:linear-gradient(45deg, #67b9dfcc,#000000);
+    min-height: 97vh;
+}
+.contact h1{
+    color: rgb(221, 221, 221);
+}
+.contact h2{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    background:black;
+    color: white;
+    margin-top: 15px;
+
+
+}
+.contact h2:hover{
+     background:linear-gradient(45deg, #67b9dfcc,#000000);
+
+ 
+}
+.contact h2 a{
+    color: white;
+    text-decoration: none;
+
+}
+
+@media (max-width : 768px){
+    .contact{
+        width : 103vw;
+     min-height: 98vh; 
+    }
+
+}

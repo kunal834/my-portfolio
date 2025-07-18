@@ -1,0 +1,38 @@
+.projects{
+  background:linear-gradient(225deg, #67b9dfcc,#000000);
+  min-height: 97vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap:60px;
+}
+.real{
+   margin-top: 15px;
+}
+
+.proj{
+   background-color: #000000;
+   margin: 5px;
+   border-radius: 15px;
+   padding: 15px;
+   text-align: center;
+   font-size: 25px;
+   
+}
+.proj p:hover{
+   color: gray;
+}
+.UI h1:hover{
+   color: beige;
+ 
+}
+@media (max-width: 768px) {
+   .projects{
+      width: 105vw;;
+      height: 120vh;
+   }
+  body{
+  background:linear-gradient(225deg, #67b9dfcc,#000000);;
+  }
+   
+}
